@@ -1,0 +1,8 @@
+.lead {
+    min-width: 76,9%;
+    padding-top: 56px;
+    display: grid;
+    grid-template-rows: 1fr 1fr max-content;
+    grid-template-columns: 1fr;
+    justify-items: center; 
+}
