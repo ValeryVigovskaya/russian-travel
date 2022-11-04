@@ -3,6 +3,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 36px;
+    line-height: 120%;
+    text-align: center;
     color: #FFFFFF;
+    max-width: 65%;
+    margin: 0;
+    padding-top: 32px;
+    padding-bottom: 64px;
 }

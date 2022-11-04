@@ -1,10 +1,10 @@
-.place__paragraph {
-    max-width: 49.2%;
+.place__link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
-    /* or 29px */
+    line-height: 22px;
+    /* identical to box height, or 122% */
     color: #FFFFFF;
+    padding-top: 12px;
 }

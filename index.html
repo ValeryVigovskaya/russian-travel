@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Путешествия по России</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body>
@@ -55,7 +55,7 @@
             стране. Мы выбрали и описали некоторые интересные места, достойные
             вашего отпуска.
           </p>
-          <ul>
+          <ul class="intro__list">
             <li class="intro__list">Часовых поясов 11</li>
             <li class="intro__list">Объектов природного наследия ЮНЕСКО 12</li>
             <li class="intro__list">Объектов культурного наследия ЮНЕСКО 16</li>
@@ -128,8 +128,13 @@
         <section class="places">
           <ul class="place">
             <li><h2 class="place__title">Куршская коса</h2></li>
-            <li><img src="./images/place-kosa.jpg" alt="" class="place__image" /></li>
-            <li><a href="http://park-kosa.ru" class="place__website"></a></li>
+            <div class="place__website">
+              <li class="place__url-heading">URL</li>
+              <li><a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a></li>
+            </div>
+            <li>
+              <img src="./images/place-kosa.jpg" alt="" class="place__image" />
+            </li>
             <li>
               <p class="place__paragraph">
                 Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
@@ -151,12 +156,21 @@
           </ul>
           <ul class="place">
             <li><h2 class="place__title">Кольский</h2></li>
-            <li><img src="./images/place-kolsky.jpg" alt="" class="place__image" /></li>
+            <div class="place__website">
+              <li class="place__url-heading">URL</li>
+              <li>
+                <a
+                  href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                  class="place__link"
+                >National Geographic</a>
+              </li>
+            </div>
             <li>
-              <a
-                href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-                class="place__website"
-              ></a>
+              <img
+                src="./images/place-kolsky.jpg"
+                alt=""
+                class="place__image"
+              />
             </li>
             <li>
               <p class="place__paragraph">
@@ -179,12 +193,17 @@
           </ul>
           <ul class="place">
             <li><h2 class="place__title">Алтай</h2></li>
-            <li><img src="./images/place-altai.jpg" alt="" class="place__image" /></li>
+            <div class="place__website">
+              <li class="place__url-heading">URL</li>
+              <li>
+                <a
+                  href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+                  class="place__link"
+                >Facebook</a>
+              </li>
+            </div>
             <li>
-              <a
-                href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-                class="place__website"
-              ></a>
+              <img src="./images/place-altai.jpg" alt="" class="place__image" />
             </li>
             <li>
               <p class="place__paragraph">
@@ -207,9 +226,18 @@
           </ul>
           <ul class="place">
             <li><h2 class="place__title">Зимний Байкал</h2></li>
-            <li><img src="./images/place-winter-baikal.jpg" alt="" class="place__image" /></li>
+            <div class="place__website">
+              <li class="place__url-heading">URL</li>
+              <li>
+                <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
+              </li>
+            </div>
             <li>
-              <a href="https://vk.com/baikalmile" class="place__website"></a>
+              <img
+                src="./images/place-winter-baikal.jpg"
+                alt=""
+                class="place__image"
+              />
             </li>
             <li>
               <p class="place__paragraph">
@@ -231,8 +259,17 @@
           </ul>
           <ul class="place">
             <li><h2 class="place__title">Карелия</h2></li>
-            <li><img src="./images/place-karelia.jpg" alt="" class="place__image" /></li>
-            <li><a href="http://vodlozero.ru" class="place__website"></a></li>
+            <div class="place__website">
+              <li class="place__url-heading">URL</li>
+              <li><a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a></li>
+            </div>
+            <li>
+              <img
+                src="./images/place-karelia.jpg"
+                alt=""
+                class="place__image"
+              />
+            </li>
             <li>
               <p class="place__paragraph">
                 Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
@@ -255,7 +292,7 @@
             Байкала на электричках.
           </p>
           <div class="cover__overlay"></div>
-          <div class="cover__background"></div>
+          <img src="./images/cover-trains.jpg" alt="" class="cover__background">
         </section>
       </main>
       <footer class="footer">

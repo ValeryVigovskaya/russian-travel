@@ -1,0 +1,10 @@
+.intro {
+    max-width: 53.9%;
+    margin: 0;
+    padding-top: 92px;
+    padding-left: 148px;
+    border: 1px outset pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
