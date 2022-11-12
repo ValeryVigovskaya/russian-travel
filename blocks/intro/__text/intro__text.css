@@ -1,11 +1,25 @@
 .intro__text {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 163%;
-    color: #FFFFFF;
-    margin: 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 33px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    padding-top: 36px;
+    padding-bottom: 37px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
     padding-top: 40px;
-    padding-bottom: 33px;
+    padding-bottom: 34px;
+  }
 }

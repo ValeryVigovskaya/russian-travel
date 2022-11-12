@@ -1,5 +1,16 @@
 .header__lang-links {
-    display: flex;
-    list-style:none;
-    padding: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-self: flex-end;
+  justify-content: space-between;
+  flex-basis: 77px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-links {
+    flex-basis: 62px;
+  }
 }
