@@ -3,22 +3,22 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.6;
-  color: #ffffff;
+  line-height: 163%;
+  color: #fff;
   margin: 0;
-  padding-top: 40px;
+  padding-top: 28px;
   padding-bottom: 33px;
 }
 
 @media screen and (max-width: 768px) {
   .intro__text {
-    padding-top: 36px;
-    padding-bottom: 37px;
+    padding-top: 27px;
+    padding-bottom: 33px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .photo-grid {
+  .intro__text {
     padding-top: 40px;
     padding-bottom: 34px;
   }

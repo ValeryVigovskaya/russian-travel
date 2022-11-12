@@ -1,12 +1,12 @@
 .place__paragraph {
-  max-width: 484px;
+  max-width: 100%;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.6;
   /* or 29px */
-  color: #ffffff;
+  color: #fff;
   margin: 0;
   padding-bottom: 26px;
 }
@@ -18,7 +18,6 @@
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 1.6;
     padding-bottom: 25px;
   }
 }
