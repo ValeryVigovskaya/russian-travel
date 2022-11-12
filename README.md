@@ -1,9 +1,9 @@
 # Проект: Путешествие по России
 
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/kDO5RDvqN0nLUxzN1i/giphy.gif" width="200"/>
+</div>
 
-<div  align="center">
- <img src="https://media.giphy.com/media/l3V0dy1zzyjbYTQQM/giphy.gif" width="480" height="270" >
- </div>
 
  Главная цель проекта - показать что в России есть много интересных мест. 
  
@@ -11,9 +11,7 @@
  
  Адаптивная верстка выполнена на HTML и CSS, в основе лежит флексверстка и grid layout. 
  
- <div id="header" align="center">
-  <img src="https://media.giphy.com/media/kDO5RDvqN0nLUxzN1i/giphy.gif" width="100"/>
-</div>
+ 
  
  ---
   :hammer_and_wrench: Используется :
