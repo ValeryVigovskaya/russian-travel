@@ -1,23 +1,25 @@
 # Проект: Путешествие по России
 
-### Обзор
-* Интро
-* Figma
-* Картинки
 
-**Интро**
+<div  align="center">
+ <img src="https://media.giphy.com/media/l3V0dy1zzyjbYTQQM/giphy.gif" width="480" height="270" >
+ </div>
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+ Главная цель проекта - показать что в России есть много интересных мест. 
+ 
+ Он состоит из шапки страницы, основного контента (в котором показано, какие есть интересные места) и подвал с ссылками на актуальные ресурсы для путешествий.
+ 
+ Адаптивная верстка выполнена на HTML и CSS, в основе лежит флексверстка и grid layout. 
+ 
+ <div id="header" align="center">
+  <img src="https://media.giphy.com/media/kDO5RDvqN0nLUxzN1i/giphy.gif" width="100"/>
+</div>
+ 
+ ---
+  :hammer_and_wrench: Используется :
+ 
+ <div>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML5" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="CSS" alt="CSS" width="40" height="40"/>&nbsp;
+</div>
 
-**Figma**
-
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
