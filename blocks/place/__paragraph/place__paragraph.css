@@ -5,7 +5,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
-  /* or 29px */
   color: #fff;
   margin: 0;
   padding-bottom: 26px;
@@ -22,7 +21,13 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 688px) {
+  .place__paragraph {
+    max-width: 688px;
+  }
+}
+
+@media screen and (min-width: 320px) {
   .place__paragraph {
     max-width: 100%;
     padding-left: 16px;

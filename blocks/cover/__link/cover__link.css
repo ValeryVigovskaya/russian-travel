@@ -25,7 +25,7 @@
   z-index: 1;
 }
 
-.cover__link:hover::after {
+.cover__link:hover::before {
   position: absolute;
   top: 0;
   bottom: 0;

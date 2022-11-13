@@ -26,6 +26,13 @@
   }
 }
 
+@media screen and (min-width:321px) and (max-width: 688px) {
+  .place {
+    gap: 20px;
+    padding-bottom: 68px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place {
     gap: 20px;
