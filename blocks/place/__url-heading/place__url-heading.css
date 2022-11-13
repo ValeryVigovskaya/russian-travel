@@ -9,3 +9,9 @@
   color: #aaaaaa;
   margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .place__url-heading {
+    line-height: 1;
+  }
+}
